@@ -70,7 +70,7 @@ export default function ContactsPage({ params: { lng } }: ContactsPageProps) {
             </div>
             <div className="contacts__container__contacts_infobox">
               <h2 className="contacts__container__contacts_infobox-header contacts__container__contacts_infobox-header--smaller">{t('reporting-complaints')}</h2>
-              <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-phone')}</span> 1.800.363.0584 / 514.335.0310 Ext: 3334</p>
+              <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-phone')}</span> 1.800.363.0584 / 514.335.0310 Ext:3334</p>
               <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-email')}</span> pharmacovigilance@junopharma.com</p>
             </div>
           </div>
