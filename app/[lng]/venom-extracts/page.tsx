@@ -432,7 +432,7 @@ export default function VenomPage({ params: { lng } }: VenomPageProps) {
             <p className="text-secondary venom__allergist-info_container-contents--text">{t('allergist-subheader')}</p>
             <p className="text-primary venom__allergist-info_container-contents--subtext">{t('allergist-text-span01')}<sup>4</sup>{t('allergist-text-span02')}</p>
             <div className="venom__allergist-info_container-contents--link">
-              <ButtonPrimary href="/assets/files/Viva_Allergy_Venom_Form_Colour.pdf" target='blank' label={t('venom-order-form')} />
+              <ButtonPrimary href="/assets/files/Omega_Allergies_Venom_Form_Colour.pdf" target='blank' label={t('venom-order-form')} />
             </div>
           </div>
         </div>

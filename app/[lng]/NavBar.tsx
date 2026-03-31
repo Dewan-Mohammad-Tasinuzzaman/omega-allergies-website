@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image';
-import Logo_Gradient from '@/public/assets/svgs/logo_icon-gradient.svg';
+import Logo_Full from '@/public/assets/svgs/logo_full.svg';
 import Logo_Text from '@/public/assets/svgs/logo_text-only.svg';
 import Arrow_Icon from '@/public/assets/svgs/down_arrow-icon.svg';
 import NewTab_Icon from '@/public/assets/svgs/new_tab-icon.svg';
@@ -84,10 +84,7 @@ export default function NavBar({ params: { lng } }: NavBarProps) {
         <Link href={`/${lng}`}>
           <div className="navbar__logoContainer">
             <div className="navbar__logoContainer_logoBox">
-              <Image src={Logo_Gradient} alt="Logo" unoptimized={true} className="navbar__logoContainer_logoBox-logo" />
-            </div>
-            <div className="navbar__logoContainer_textBox">
-              <Image src={Logo_Text} alt="Logo" unoptimized={true} className="navbar__logoContainer_textBox-text" />
+              <Image src={Logo_Full} alt="Logo" unoptimized={true} className="navbar__logoContainer_logoBox-logo" />
             </div>
           </div>
         </Link>

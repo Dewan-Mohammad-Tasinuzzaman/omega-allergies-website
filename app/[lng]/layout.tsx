@@ -33,7 +33,7 @@ const lato = Lato({
 
 // META-TAGS
 export const metadata: Metadata = {
-  title: "Viva Allergy",
+  title: "Omega Allergies",
   description: "Innovative change for a healthier tomorrow.",
 };
 

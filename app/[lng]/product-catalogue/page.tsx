@@ -40,7 +40,7 @@ export default async function ProductCatalogue({ params: { lng } }: ProductCatal
         </div>
 
         <div className="product-catalogue__button-container">
-          <ButtonPrimary href="/assets/files/Viva_Allergy_Product_Catalouge.pdf" target='blank' label={t('download')} />
+          <ButtonPrimary href="/assets/files/Omega_Allergies_Product_Catalogue.pdf" target='blank' label={t('download')} />
         </div>
       </div>
 

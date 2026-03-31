@@ -64,13 +64,13 @@ export default function ContactsPage({ params: { lng } }: ContactsPageProps) {
             />
             <div className="contacts__container__contacts_infobox">
               <h2 className="contacts__container__contacts_infobox-header">{t('customer-service')}</h2>
-              <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-phone')}</span> 1.800.363.0584</p>
+              <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-phone')}</span> 1.800.363.0584 #3363</p>
               <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-fax')}</span> 1.888.331.4283</p>
-              <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-email')}</span> poallergie@junopharma.com</p>
+              <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-email')}</span> poallergies@junopharma.com</p>
             </div>
             <div className="contacts__container__contacts_infobox">
               <h2 className="contacts__container__contacts_infobox-header contacts__container__contacts_infobox-header--smaller">{t('reporting-complaints')}</h2>
-              <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-phone')}</span> 1.800.363.0584 / 514.335.0310 Ext:3334</p>
+              <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-phone')}</span> 1.800.363.0584 / 514.335.0310 #3334</p>
               <p className="contacts__container__contacts_infobox-detail"><span className="contacts__container__contacts_infobox-detail--span">{t('contacts-email')}</span> pharmacovigilance@junopharma.com</p>
             </div>
           </div>

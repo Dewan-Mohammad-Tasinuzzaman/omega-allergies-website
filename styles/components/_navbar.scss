@@ -44,7 +44,7 @@
         background-color: var(--color-white);
         box-shadow: 0 3px 1.5rem rgba(0, 0, 0, 0.05);
         border-radius: 100rem;
-        padding: 3rem 2rem;
+        padding: 4rem 2rem;
 
         @include respond(tablet) {
             border-radius: 15px;
@@ -55,24 +55,10 @@
         &_logoBox {
 
             position: relative;
-            width: 3rem;
+            width: 18rem;
             height: auto;
-            margin-right: 1.5rem;
 
             &-logo {
-                @include absolute-center;
-                width: 100%;
-                height: auto;
-            }
-        }
-
-        &_textBox {
-
-            position: relative;
-            width: 14rem;
-            height: auto;
-
-            &-text {
                 @include absolute-center;
                 width: 100%;
                 height: auto;

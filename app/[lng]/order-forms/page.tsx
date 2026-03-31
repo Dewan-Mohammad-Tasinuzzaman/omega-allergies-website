@@ -41,13 +41,13 @@ export default function OrderFormsPage({ params: { lng } }: OrderFormsPageProps)
               <Link className='btn-primary order-forms__fellowship_content-mainbox-link' href="/contacts">{t('get-started')}</Link>
             </div>
             <div className="button-group order-forms__fellowship_content-buttonsbox">
-              <Link className="button-group__button button-group__button--dark" href="/assets/files/Viva_Allergy_SCIT_Form_Colour.pdf" target='blank'>
+              <Link className="button-group__button button-group__button--dark" href="/assets/files/Omega_Allergies_SCIT_Form_Colour.pdf" target='blank'>
                 <div className="button-group__button_content">
                   <p className="button-group__button_content-text">{t('scit-order-form')}</p>
                   <Image src={DownloadIcon_White} alt="Logo" unoptimized={true} className="button-group__button_content-icon" />
                 </div>
               </Link>
-              <Link className="button-group__button button-group__button--light" href="/assets/files/Viva_Allergy_Venom_Form_Colour.pdf" target='blank'>
+              <Link className="button-group__button button-group__button--light" href="/assets/files/Omega_Allergies_Venom_Form_Colour.pdf" target='blank'>
                 <div className="button-group__button_content">
                   <p className="button-group__button_content-text">{t('venom-order-form')}</p>
                   <Image src={DownloadIcon_Dark} alt="Logo" unoptimized={true} className="button-group__button_content-icon" />

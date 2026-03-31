@@ -86,9 +86,7 @@ export default function Footer({ params: { lng }, showRequestQuote }: FooterProp
                     </div>
                     <div className="footer__main_content-segment03--partners">
                         <h4 className="footer-title footer__main_content-segment03--partners---title">{t('our-partners')}</h4>
-                        <Link className='footer-link footer__main_content-segment03--partners---link' href="https://www.junopharm.ca/" target="_blank">{t('our-partners-link01')}</Link>
-                        <Link className='footer-link footer__main_content-segment03--partners---link' href="https://www.hsallergy.com/" target="_blank">{t('our-partners-link02')}</Link>
-                        <Link className='footer-link footer__main_content-segment03--partners---link' href="https://www.omegapharma.ca/" target="_blank">{t('our-partners-link03')}</Link>
+                        <Link className='footer-link footer__main_content-segment03--partners---link' href="https://www.hsallergy.com/" target="_blank">{t('our-partners-link01')}</Link>
                     </div>
                     <div className="footer__main_content-segment03--contact">
                         <Image src={Logo_Full_White} alt="Viva Allergy logo with icon" unoptimized={true} className="footer__main_content-segment03--contact---logo" />
@@ -108,7 +106,7 @@ export default function Footer({ params: { lng }, showRequestQuote }: FooterProp
             </div>
         </div>
         <div className="footer__copyrightbox">
-            <h5 className="footer__copyrightbox_text">©{currentYear} <span className="footer__copyrightbox_text-span">VIVA ALLERGY</span> | {t('copyright-text')}</h5>
+            <h5 className="footer__copyrightbox_text">©{currentYear} <span className="footer__copyrightbox_text-span">OMEGA ALLERGIES</span> | {t('copyright-text')}</h5>
         </div>
     </footer>
     )
