@@ -83,6 +83,7 @@ export default function Footer({ params: { lng }, showRequestQuote }: FooterProp
                         <h4 className="footer-title footer__main_content-segment03--about---title">{t('about-us')}</h4>
                         <Link className='footer-link footer__main_content-segment03--about---link' href="/about">{t('about-us-link01')}</Link>
                         <Link className='footer-link footer__main_content-segment03--about---link' href="/contacts">{t('about-us-link02')}</Link>
+                        <Link className='footer-link footer__main_content-segment03--about---link' href="https://www.junopharma.com" target='blank'>{t('about-us-link03')}</Link>
                     </div>
                     <div className="footer__main_content-segment03--partners">
                         <h4 className="footer-title footer__main_content-segment03--partners---title">{t('our-partners')}</h4>

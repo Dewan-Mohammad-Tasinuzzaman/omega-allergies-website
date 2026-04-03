@@ -131,15 +131,11 @@ export default function NavBar({ params: { lng } }: NavBarProps) {
                 <Link onClick={closeMobileMenu} className={`${`/${lng}/about` === currentPath ? 'active-sub-menu' : ''} sub-menu__item_link`} href={`/${lng}/about`}>{t('about-us')}</Link>
               </li>
               <li className="sub-menu__item flex align-items-center">
-                <Link onClick={closeMobileMenu} className={`sub-menu__item_link`} href="https://www.junopharm.ca/" target="_blank">{t('juno')}</Link>
+                <Link onClick={closeMobileMenu} className={`sub-menu__item_link`} href="https://www.junopharma.com/" target="_blank">{t('juno')}</Link>
                 <Image src={NewTab_Icon} alt="new-tab" unoptimized={true} className="sub-menu__item_link-newtab"/>
               </li>
               <li className="sub-menu__item flex align-items-center">
                 <Link onClick={closeMobileMenu} className={`sub-menu__item_link`} href="https://www.hsallergy.com/" target="_blank">{t('hollisterstier')}</Link>
-                <Image src={NewTab_Icon} alt="new-tab" unoptimized={true} className="sub-menu__item_link-newtab"/>
-              </li>
-              <li className="sub-menu__item flex align-items-center">
-                <Link onClick={closeMobileMenu} className={`sub-menu__item_link`} href="https://www.omegapharma.ca/" target="_blank">{t('omega')}</Link>
                 <Image src={NewTab_Icon} alt="new-tab" unoptimized={true} className="sub-menu__item_link-newtab"/>
               </li>
             </ul>
